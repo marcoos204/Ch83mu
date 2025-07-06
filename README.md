@@ -1,5 +1,5 @@
 
-## ***CH83MU - Basic Chip8 Emulator Guide	
+## **CH83MU - Basic Chip8 Emulator Guide**
 	
 	Marcos Oduardo Castillo - 7 julio 2025
 
@@ -465,7 +465,7 @@ Y finalmente, solo queda compilar todo el programa (se recomienda el makefile pr
 
 -----------------------------------------------------------------------
 
-## ***Bibliografia
+## **Bibliografia**
 
 [-> Building a CHIP-8 Emulator [C++] - Austin Morlan](https://austinmorlan.com/posts/chip8_emulator/)
 
