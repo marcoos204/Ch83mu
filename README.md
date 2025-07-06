@@ -42,7 +42,7 @@ Tiene 4096 Bytes de memoria, por lo que el valor de las direcciones va de 0x000 
 
 **Index register (16 bits)** -> Registro especial que guarda direcciones de memoria para usar en operaciones
 
-**Program Counter (16 bits)** -> Contiene la dirección de la siguiente instrucción a ejecutar. Como las instrucciones de Chip8 ocupan 2 bytes, primero hacemos fetch al primer byte, luego hacemos fecth al byte PC + 1, los unimos y finalmente añadimos 2 al PC para continuar a la siguiente instrucción. Antes de guiaejecutar cada instrucción el PC deberá modificarse a sus siguiente valor ya que puede ser que esa instruccion vaya a modificar su valor.
+**Program Counter (16 bits)** -> Contiene la dirección de la siguiente instrucción a ejecutar. Como las instrucciones de Chip8 ocupan 2 bytes, primero hacemos fetch al primer byte, luego hacemos fecth al byte PC + 1, los unimos y finalmente añadimos 2 al PC para continuar a la siguiente instrucción. Antes de ejecutar cada instrucción el PC deberá modificarse a su siguiente valor ya que puede ser que esa instruccion vaya a modificarlo y puede que tenga que guardarse.
 
 **Stack de 16 niveles** -> Un stack, pila, permite a la CPU ejecutar instrucciones CALL, donde el PC de la siguiente instrucción a ejecutar deberá guardarse en la pila y deberá saltar a la dirección de memoria que le indica la instrucción. Al llegar a la instruccion RET, la CPU debe hacer un pop del valor del PC guardado en la pila y proseguir la ejecución anterior. 16 niveles significa que se pueden hacer 16 llamadas a funciones dentro de otras funciones.
 
