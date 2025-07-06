@@ -3,7 +3,7 @@
 	
 	Marcos Oduardo Castillo - 7 julio 2025
 
-Uso del ejecutable: ./chip8.elf <Escala> <Delay> <ROMfilename>
+"Uso del ejecutable: ./chip8.elf <Escala> <Delay> <ROMfilename>"
 (Se recomienda una escala de 10 y un delay entre 3 y 4 )
 
 ------------------------------------------------------------------------
